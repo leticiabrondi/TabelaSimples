@@ -1,0 +1,173 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #D96523, #F29441); /* Gradiente de fundo */
+    margin: 0;
+    padding: 0;
+    color: white; /* Texto branco no corpo */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    padding-top: 30px; /* Espaço no topo */
+    overflow-x: hidden; /* Evita rolagem horizontal */
+}
+
+a.album {
+    text-decoration: none; /* Remove a linha embaixo do link */
+    color: inherit; /* Remove a cor azul */
+}
+
+/* Bloco sobre Kendrick Lamar */
+.sobre-kendrick {
+    width: 90%;
+    max-width: 1000px;
+    margin-bottom: 50px; /* Espaço entre a seção e a tabela */
+    display: flex; /* Alinha a imagem à esquerda e o texto à direita */
+    align-items: center; /* Centraliza a imagem e o texto verticalmente */
+}
+
+.conteudo-kendrick {
+    background-color: #F29441; /* Fundo laranja para destacar a área */
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.imagem-kendrick {
+    width: 200px; /* Tamanho da imagem */
+    height: 200px; /* Tamanho da imagem */
+    border-radius: 50%; /* Tornar a imagem redonda */
+    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.texto-kendrick {
+    max-width: 700px; /* Limita a largura do texto */
+}
+
+#album-image-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#album-image {
+    max-width: 100%;
+    border-radius: 15px; /* Opcional, para arredondar as bordas da imagem */
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Estilo do título principal da tabela */
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo da tabela */
+table {
+    width: 80%;
+    margin: 0 auto 50px auto; /* Garante que haja um espaço de 30px abaixo da tabela */
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #F29441;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Estilo da legenda da tabela */
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* Estilo das células da tabela (th e td) */
+th, td {
+    padding: 15px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+/* Estilo das células de cabeçalho (th) */
+th {
+    background-color: #8AA6BF;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
+/* Estilo para o footer */
+footer {
+    background-color: #8AA6BF; /* Cor de fundo do footer */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaço interno */
+    width: 100%; /* Faz o footer ocupar toda a largura da página */
+    position: relative;
+    bottom: 0; /* Fixa o footer na parte inferior da página */
+}
+
+/* Estilo do texto dentro do footer */
+footer p {
+    font-size: 1.2em; /* Tamanho da fonte */
+    margin: 0; /* Remove margem extra */
+}
+
+/* Bordas arredondadas nas células de cabeçalho (th) */
+th:first-child {
+    border-top-left-radius: 15px;
+}
+
+th:last-child {
+    border-top-right-radius: 15px;
+}
+
+/* Alinhamento das colunas específicas */
+th:nth-child(1), td:nth-child(1) {
+    text-align: left;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    text-align: center;
+}
+
+th:nth-child(3), td:nth-child(3) {
+    text-align: center;
+}
+
+th:nth-child(4), td:nth-child(4) {
+    text-align: left;
+}
+
+/* Estilo das linhas de dados */
+tr:nth-child(even) {
+    background-color: #f2a45f;
+}
+
+/* Estilo das células de dados (td) */
+td {
+    font-size: 1.1em;
+}
+
+/* Efeito de hover nas linhas */
+tr:hover {
+    background-color: #c05a20;
+}
+
+/* Efeito de hover nas células da tabela */
+td:hover {
+    background-color: #ab543a; /* Cor que aparece quando passar o mouse */
+    transform: scale(1.05); /* Um efeito de zoom */
+    transition: all 0.3s ease; /* Transição suave */
+}
